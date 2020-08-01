@@ -1,0 +1,8 @@
+
+<table>
+  <tr *ngFor="let item of (filterBusiness | filter: serviceB.searchBy)">
+    <!-- <td>{{item.businessName}}</td> -->
+      <input type="button" (click)="openHomePage(item.code)" [value]="item.businessName">
+    <!-- <a routerLink="/schedule" title="">{{item.businessName}}set an appointment</a> -->
+  </tr>
+</table>

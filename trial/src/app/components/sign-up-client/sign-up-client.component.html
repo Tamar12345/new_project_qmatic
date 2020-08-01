@@ -1,0 +1,47 @@
+<div class="panel panel-default">
+<form class="form-horizontal" (ngSubmit)="signUp()">
+  <div class="form-group">
+    <label class="control-label col-sm-2"> מספר זהות :</label>
+    <div class="col-sm-4">
+      <input type="text" class="form-control" name="ownerName" [(ngModel)]="clientUser.id" />
+    </div>
+  </div>
+  <div class="form-group">
+    <label class="control-label col-sm-2"> שם פרטי :</label>
+    <div class="col-sm-4">
+      <input type="text" class="form-control" name="ownerName" [(ngModel)]="clientUser.firstName" />
+    </div>
+  </div>
+  <div class="form-group">
+    <label class="control-label col-sm-2"> שם משפחה :</label>
+    <div class="col-sm-4">
+      <input type="text" class="form-control" name="ownerName" [(ngModel)]="clientUser.lastName" />
+    </div>
+  </div>
+  <div class="form-group">
+    <label class="control-label col-sm-2"> עיר :</label>
+    <div class="col-sm-4">
+      <input type="text" class="form-control" name="ownerName" [(ngModel)]="clientUser.city" />
+    </div>
+  </div>
+  <div class="form-group">
+    <label class="control-label col-sm-2"> כתובת :</label>
+    <div class="col-sm-4">
+      <input type="text" class="form-control" name="ownerName" [(ngModel)]="clientUser.street" />
+    </div>
+  </div>
+  <div class="form-group">
+    <label class="control-label col-sm-2">אימייל:</label>
+    <div class="col-sm-4">
+      <input type="email"  class="form-control" name="email" [(ngModel)]="clientUser.Email" />
+    </div>
+  </div>
+  <div class="form-group">
+    <label class="control-label col-sm-2">טלפון:</label>
+    <div class="col-sm-4">
+      <input type="text"  class="form-control" name="phoneNumber" [(ngModel)]="clientUser.phoneNumber" />
+    </div>
+  </div>
+  <button class="btn btn-primary" type="submit">sign up</button>
+</form>
+</div>

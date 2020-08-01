@@ -1,0 +1,33 @@
+
+
+<!-- <div id="logo_img" [style.background] [ngStyle]="{ 'background-image': 'url(' + logo + ')'}">
+    <button id="file_btn_text" onclick="document.getElementById('file').click()"></button>
+</div> 
+<input type="file" id="file" accept=".png,.jpeg,.JPEG,.svg,.gif,.jpg,.JPG," name="File"
+    (change)="handleFileInput($event.target.files)" style="display:none"><br>-->
+    <img [src]="logo" class="logoImage" onclick="document.getElementById('file').click()" style="width: 10vw; height: 10vh;" >
+    <input type="file" id="file" accept=".png,.jpeg,.JPEG,.svg,.gif,.jpg,.JPG," name="File"
+    (change)="handleFileInput($event.target.files)" style="display:none"><br>
+<!-- formControlName="addressDescription" ???-->
+<button (click)="save()" title="save" [disabled]=!was_logo_chosen>show logo</button>
+<button (click)="saveAll()" title="save" [disabled]=!was_logo_chosen>save all</button>
+
+
+<table [style.background-color]="businessOwner.tableColor" border="1">
+    <tr>
+        <th>Day</th>
+    </tr>
+    <tr [style.color]="businessOwner.freeTurnColor ">free
+        <input type="color" [(ngModel)]="businessOwner.freeTurnColor">
+    </tr>
+    <tr [style.color]="businessOwner.takenTurnColor">busy
+        <input type="color" [(ngModel)]="businessOwner.takenTurnColor">
+    </tr>
+    <tr [style.color]="businessOwner.cancelledTurnColor">client canceled
+        <input type="color" [(ngModel)]="businessOwner.cancelledTurnColor">
+    </tr>
+    <tr [style.color]="businessOwner.cancelledTurnColor">change
+        <input type="color" [(ngModel)]="businessOwner.clientCancellationsColor">
+    </tr>
+</table>
+<input type="color" [(ngModel)]="businessOwner.tableColor">

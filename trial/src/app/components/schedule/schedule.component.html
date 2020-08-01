@@ -1,0 +1,28 @@
+
+<div style="display: inline-flex; flex-direction:row">
+  <table [style.backgroundColor]="activeBusiness.tableColor" >
+    <tr>
+      <th *ngFor="let d of days">{{d.name}} {{ d.date | date:'d/M' }} </th>
+    </tr>
+    <tr *ngFor="let l of schedule[maxLengthIndex], let i = index">
+      <td *ngFor="let c of days, let j = index">
+        <div *ngIf="schedule[j][i]">          
+          <!-- {{states[schedule[j][i].State]}} -->
+          <!-- {{schedule[j][i].ClassState}} -->
+          <button [style.background-color]="activeBusiness.freeTurnColor" *ngIf="schedule[j][i].State==1" (click)="order(schedule[j][i])">{{schedule[j][i].StartHour}}  {{schedule[j][i].State}}</button>
+          <button [style.backgroundColor]="activeBusiness.clientCancellationsColor"  *ngIf="schedule[j][i].State==2 && isBusinessOwner">{{schedule[j][i].StartHour}} {{schedule[j][i].State}}</button>
+          <button [style.backgroundColor]="activeBusiness.cancelledTurnColor"  *ngIf="schedule[j][i].State==3 && isBusinessOwner">{{schedule[j][i].StartHour}} {{schedule[j][i].State}}</button>
+          <button [style.backgroundColor]="activeBusiness.takenTurnColor"  *ngIf="schedule[j][i].State==0 && isBusinessOwner">{{schedule[j][i].StartHour}} {{schedule[j][i].State}}</button>
+        </div>
+
+
+        <div *ngIf="!schedule[j][i]|| (schedule[j][i].State!=1 && !isBusinessOwner)">          
+          <!-- {{states[schedule[j][i].State]}} -->
+          <!-- {{schedule[j][i].ClassState}} -->
+          <button disabled=true > None</button>
+        </div>
+
+      </td>
+    </tr>
+  </table>
+</div>

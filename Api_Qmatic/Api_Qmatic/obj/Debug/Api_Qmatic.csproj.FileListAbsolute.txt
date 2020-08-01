@@ -1,0 +1,156 @@
+L:\שנה ב\Chen Yadai\פרויקט\Api_Qmatic\Api_Qmatic\bin\Api_Qmatic.dll.config
+L:\שנה ב\Chen Yadai\פרויקט\Api_Qmatic\Api_Qmatic\bin\Api_Qmatic.dll
+L:\שנה ב\Chen Yadai\פרויקט\Api_Qmatic\Api_Qmatic\bin\Api_Qmatic.pdb
+L:\שנה ב\Chen Yadai\פרויקט\Api_Qmatic\Api_Qmatic\bin\roslyn\csc.exe
+L:\שנה ב\Chen Yadai\פרויקט\Api_Qmatic\Api_Qmatic\bin\roslyn\csc.exe.config
+L:\שנה ב\Chen Yadai\פרויקט\Api_Qmatic\Api_Qmatic\bin\roslyn\csc.rsp
+L:\שנה ב\Chen Yadai\פרויקט\Api_Qmatic\Api_Qmatic\bin\roslyn\csi.exe
+L:\שנה ב\Chen Yadai\פרויקט\Api_Qmatic\Api_Qmatic\bin\roslyn\csi.exe.config
+L:\שנה ב\Chen Yadai\פרויקט\Api_Qmatic\Api_Qmatic\bin\roslyn\csi.rsp
+L:\שנה ב\Chen Yadai\פרויקט\Api_Qmatic\Api_Qmatic\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+L:\שנה ב\Chen Yadai\פרויקט\Api_Qmatic\Api_Qmatic\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+L:\שנה ב\Chen Yadai\פרויקט\Api_Qmatic\Api_Qmatic\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+L:\שנה ב\Chen Yadai\פרויקט\Api_Qmatic\Api_Qmatic\bin\roslyn\Microsoft.CodeAnalysis.dll
+L:\שנה ב\Chen Yadai\פרויקט\Api_Qmatic\Api_Qmatic\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+L:\שנה ב\Chen Yadai\פרויקט\Api_Qmatic\Api_Qmatic\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+L:\שנה ב\Chen Yadai\פרויקט\Api_Qmatic\Api_Qmatic\bin\roslyn\Microsoft.CSharp.Core.targets
+L:\שנה ב\Chen Yadai\פרויקט\Api_Qmatic\Api_Qmatic\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+L:\שנה ב\Chen Yadai\פרויקט\Api_Qmatic\Api_Qmatic\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+L:\שנה ב\Chen Yadai\פרויקט\Api_Qmatic\Api_Qmatic\bin\roslyn\Microsoft.VisualBasic.Core.targets
+L:\שנה ב\Chen Yadai\פרויקט\Api_Qmatic\Api_Qmatic\bin\roslyn\Microsoft.Win32.Primitives.dll
+L:\שנה ב\Chen Yadai\פרויקט\Api_Qmatic\Api_Qmatic\bin\roslyn\System.AppContext.dll
+L:\שנה ב\Chen Yadai\פרויקט\Api_Qmatic\Api_Qmatic\bin\roslyn\System.Collections.Immutable.dll
+L:\שנה ב\Chen Yadai\פרויקט\Api_Qmatic\Api_Qmatic\bin\roslyn\System.Console.dll
+L:\שנה ב\Chen Yadai\פרויקט\Api_Qmatic\Api_Qmatic\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+L:\שנה ב\Chen Yadai\פרויקט\Api_Qmatic\Api_Qmatic\bin\roslyn\System.Diagnostics.Process.dll
+L:\שנה ב\Chen Yadai\פרויקט\Api_Qmatic\Api_Qmatic\bin\roslyn\System.Diagnostics.StackTrace.dll
+L:\שנה ב\Chen Yadai\פרויקט\Api_Qmatic\Api_Qmatic\bin\roslyn\System.IO.Compression.dll
+L:\שנה ב\Chen Yadai\פרויקט\Api_Qmatic\Api_Qmatic\bin\roslyn\System.IO.FileSystem.dll
+L:\שנה ב\Chen Yadai\פרויקט\Api_Qmatic\Api_Qmatic\bin\roslyn\System.IO.FileSystem.DriveInfo.dll
+L:\שנה ב\Chen Yadai\פרויקט\Api_Qmatic\Api_Qmatic\bin\roslyn\System.IO.FileSystem.Primitives.dll
+L:\שנה ב\Chen Yadai\פרויקט\Api_Qmatic\Api_Qmatic\bin\roslyn\System.IO.Pipes.dll
+L:\שנה ב\Chen Yadai\פרויקט\Api_Qmatic\Api_Qmatic\bin\roslyn\System.Reflection.Metadata.dll
+L:\שנה ב\Chen Yadai\פרויקט\Api_Qmatic\Api_Qmatic\bin\roslyn\System.Security.AccessControl.dll
+L:\שנה ב\Chen Yadai\פרויקט\Api_Qmatic\Api_Qmatic\bin\roslyn\System.Security.Claims.dll
+L:\שנה ב\Chen Yadai\פרויקט\Api_Qmatic\Api_Qmatic\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+L:\שנה ב\Chen Yadai\פרויקט\Api_Qmatic\Api_Qmatic\bin\roslyn\System.Security.Cryptography.Encoding.dll
+L:\שנה ב\Chen Yadai\פרויקט\Api_Qmatic\Api_Qmatic\bin\roslyn\System.Security.Cryptography.Primitives.dll
+L:\שנה ב\Chen Yadai\פרויקט\Api_Qmatic\Api_Qmatic\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+L:\שנה ב\Chen Yadai\פרויקט\Api_Qmatic\Api_Qmatic\bin\roslyn\System.Security.Principal.Windows.dll
+L:\שנה ב\Chen Yadai\פרויקט\Api_Qmatic\Api_Qmatic\bin\roslyn\System.Text.Encoding.CodePages.dll
+L:\שנה ב\Chen Yadai\פרויקט\Api_Qmatic\Api_Qmatic\bin\roslyn\System.Threading.Thread.dll
+L:\שנה ב\Chen Yadai\פרויקט\Api_Qmatic\Api_Qmatic\bin\roslyn\System.ValueTuple.dll
+L:\שנה ב\Chen Yadai\פרויקט\Api_Qmatic\Api_Qmatic\bin\roslyn\System.Xml.ReaderWriter.dll
+L:\שנה ב\Chen Yadai\פרויקט\Api_Qmatic\Api_Qmatic\bin\roslyn\System.Xml.XmlDocument.dll
+L:\שנה ב\Chen Yadai\פרויקט\Api_Qmatic\Api_Qmatic\bin\roslyn\System.Xml.XPath.dll
+L:\שנה ב\Chen Yadai\פרויקט\Api_Qmatic\Api_Qmatic\bin\roslyn\System.Xml.XPath.XDocument.dll
+L:\שנה ב\Chen Yadai\פרויקט\Api_Qmatic\Api_Qmatic\bin\roslyn\vbc.exe
+L:\שנה ב\Chen Yadai\פרויקט\Api_Qmatic\Api_Qmatic\bin\roslyn\vbc.exe.config
+L:\שנה ב\Chen Yadai\פרויקט\Api_Qmatic\Api_Qmatic\bin\roslyn\vbc.rsp
+L:\שנה ב\Chen Yadai\פרויקט\Api_Qmatic\Api_Qmatic\bin\roslyn\VBCSCompiler.exe
+L:\שנה ב\Chen Yadai\פרויקט\Api_Qmatic\Api_Qmatic\bin\roslyn\VBCSCompiler.exe.config
+L:\שנה ב\Chen Yadai\פרויקט\Api_Qmatic\Api_Qmatic\bin\EntityFramework.dll
+L:\שנה ב\Chen Yadai\פרויקט\Api_Qmatic\Api_Qmatic\bin\EntityFramework.SqlServer.dll
+L:\שנה ב\Chen Yadai\פרויקט\Api_Qmatic\Api_Qmatic\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+L:\שנה ב\Chen Yadai\פרויקט\Api_Qmatic\Api_Qmatic\bin\Newtonsoft.Json.dll
+L:\שנה ב\Chen Yadai\פרויקט\Api_Qmatic\Api_Qmatic\bin\System.Net.Http.Formatting.dll
+L:\שנה ב\Chen Yadai\פרויקט\Api_Qmatic\Api_Qmatic\bin\System.Web.Http.dll
+L:\שנה ב\Chen Yadai\פרויקט\Api_Qmatic\Api_Qmatic\bin\System.Web.Http.WebHost.dll
+L:\שנה ב\Chen Yadai\פרויקט\Api_Qmatic\Api_Qmatic\bin\EntityFramework.xml
+L:\שנה ב\Chen Yadai\פרויקט\Api_Qmatic\Api_Qmatic\bin\EntityFramework.SqlServer.xml
+L:\שנה ב\Chen Yadai\פרויקט\Api_Qmatic\Api_Qmatic\bin\Newtonsoft.Json.xml
+L:\שנה ב\Chen Yadai\פרויקט\Api_Qmatic\Api_Qmatic\bin\System.Net.Http.Formatting.xml
+L:\שנה ב\Chen Yadai\פרויקט\Api_Qmatic\Api_Qmatic\bin\System.Web.Http.xml
+L:\שנה ב\Chen Yadai\פרויקט\Api_Qmatic\Api_Qmatic\bin\System.Web.Http.WebHost.xml
+L:\שנה ב\Chen Yadai\פרויקט\Api_Qmatic\Api_Qmatic\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+L:\שנה ב\Chen Yadai\פרויקט\Api_Qmatic\Api_Qmatic\obj\Debug\Api_Qmatic.csprojAssemblyReference.cache
+L:\שנה ב\Chen Yadai\פרויקט\Api_Qmatic\Api_Qmatic\obj\Debug\Api_Qmatic.csproj.CoreCompileInputs.cache
+L:\שנה ב\Chen Yadai\פרויקט\Api_Qmatic\Api_Qmatic\obj\Debug\Api_Qmatic.csproj.CopyComplete
+L:\שנה ב\Chen Yadai\פרויקט\Api_Qmatic\Api_Qmatic\obj\Debug\Api_Qmatic.dll
+L:\שנה ב\Chen Yadai\פרויקט\Api_Qmatic\Api_Qmatic\obj\Debug\Api_Qmatic.pdb
+L:\שנה ב\Chen Yadai\פרויקט\Api_Qmatic\Api_Qmatic\bin\BLL.dll
+L:\שנה ב\Chen Yadai\פרויקט\Api_Qmatic\Api_Qmatic\bin\Entities.dll
+L:\שנה ב\Chen Yadai\פרויקט\Api_Qmatic\Api_Qmatic\bin\DAL.dll
+L:\שנה ב\Chen Yadai\פרויקט\Api_Qmatic\Api_Qmatic\bin\BLL.pdb
+L:\שנה ב\Chen Yadai\פרויקט\Api_Qmatic\Api_Qmatic\bin\Entities.pdb
+L:\שנה ב\Chen Yadai\פרויקט\Api_Qmatic\Api_Qmatic\bin\DAL.pdb
+L:\שנה ב\Chen Yadai\פרויקט\Api_Qmatic\Api_Qmatic\bin\DAL.dll.config
+L:\שנה ב\Chen Yadai\פרויקט\Api_Qmatic\Api_Qmatic\bin\BLL.dll.config
+C:\Users\1\Desktop\תכנות\project\Api_Qmatic\Api_Qmatic\bin\Api_Qmatic.dll.config
+C:\Users\1\Desktop\תכנות\project\Api_Qmatic\Api_Qmatic\bin\Api_Qmatic.dll
+C:\Users\1\Desktop\תכנות\project\Api_Qmatic\Api_Qmatic\bin\Api_Qmatic.pdb
+C:\Users\1\Desktop\תכנות\project\Api_Qmatic\Api_Qmatic\bin\roslyn\csc.exe
+C:\Users\1\Desktop\תכנות\project\Api_Qmatic\Api_Qmatic\bin\roslyn\csc.exe.config
+C:\Users\1\Desktop\תכנות\project\Api_Qmatic\Api_Qmatic\bin\roslyn\csc.rsp
+C:\Users\1\Desktop\תכנות\project\Api_Qmatic\Api_Qmatic\bin\roslyn\csi.exe
+C:\Users\1\Desktop\תכנות\project\Api_Qmatic\Api_Qmatic\bin\roslyn\csi.exe.config
+C:\Users\1\Desktop\תכנות\project\Api_Qmatic\Api_Qmatic\bin\roslyn\csi.rsp
+C:\Users\1\Desktop\תכנות\project\Api_Qmatic\Api_Qmatic\bin\roslyn\Microsoft.Build.Tasks.CodeAnalysis.dll
+C:\Users\1\Desktop\תכנות\project\Api_Qmatic\Api_Qmatic\bin\roslyn\Microsoft.CodeAnalysis.CSharp.dll
+C:\Users\1\Desktop\תכנות\project\Api_Qmatic\Api_Qmatic\bin\roslyn\Microsoft.CodeAnalysis.CSharp.Scripting.dll
+C:\Users\1\Desktop\תכנות\project\Api_Qmatic\Api_Qmatic\bin\roslyn\Microsoft.CodeAnalysis.dll
+C:\Users\1\Desktop\תכנות\project\Api_Qmatic\Api_Qmatic\bin\roslyn\Microsoft.CodeAnalysis.Scripting.dll
+C:\Users\1\Desktop\תכנות\project\Api_Qmatic\Api_Qmatic\bin\roslyn\Microsoft.CodeAnalysis.VisualBasic.dll
+C:\Users\1\Desktop\תכנות\project\Api_Qmatic\Api_Qmatic\bin\roslyn\Microsoft.CSharp.Core.targets
+C:\Users\1\Desktop\תכנות\project\Api_Qmatic\Api_Qmatic\bin\roslyn\Microsoft.DiaSymReader.Native.amd64.dll
+C:\Users\1\Desktop\תכנות\project\Api_Qmatic\Api_Qmatic\bin\roslyn\Microsoft.DiaSymReader.Native.x86.dll
+C:\Users\1\Desktop\תכנות\project\Api_Qmatic\Api_Qmatic\bin\roslyn\Microsoft.VisualBasic.Core.targets
+C:\Users\1\Desktop\תכנות\project\Api_Qmatic\Api_Qmatic\bin\roslyn\Microsoft.Win32.Primitives.dll
+C:\Users\1\Desktop\תכנות\project\Api_Qmatic\Api_Qmatic\bin\roslyn\System.AppContext.dll
+C:\Users\1\Desktop\תכנות\project\Api_Qmatic\Api_Qmatic\bin\roslyn\System.Collections.Immutable.dll
+C:\Users\1\Desktop\תכנות\project\Api_Qmatic\Api_Qmatic\bin\roslyn\System.Console.dll
+C:\Users\1\Desktop\תכנות\project\Api_Qmatic\Api_Qmatic\bin\roslyn\System.Diagnostics.FileVersionInfo.dll
+C:\Users\1\Desktop\תכנות\project\Api_Qmatic\Api_Qmatic\bin\roslyn\System.Diagnostics.Process.dll
+C:\Users\1\Desktop\תכנות\project\Api_Qmatic\Api_Qmatic\bin\roslyn\System.Diagnostics.StackTrace.dll
+C:\Users\1\Desktop\תכנות\project\Api_Qmatic\Api_Qmatic\bin\roslyn\System.IO.Compression.dll
+C:\Users\1\Desktop\תכנות\project\Api_Qmatic\Api_Qmatic\bin\roslyn\System.IO.FileSystem.dll
+C:\Users\1\Desktop\תכנות\project\Api_Qmatic\Api_Qmatic\bin\roslyn\System.IO.FileSystem.DriveInfo.dll
+C:\Users\1\Desktop\תכנות\project\Api_Qmatic\Api_Qmatic\bin\roslyn\System.IO.FileSystem.Primitives.dll
+C:\Users\1\Desktop\תכנות\project\Api_Qmatic\Api_Qmatic\bin\roslyn\System.IO.Pipes.dll
+C:\Users\1\Desktop\תכנות\project\Api_Qmatic\Api_Qmatic\bin\roslyn\System.Reflection.Metadata.dll
+C:\Users\1\Desktop\תכנות\project\Api_Qmatic\Api_Qmatic\bin\roslyn\System.Security.AccessControl.dll
+C:\Users\1\Desktop\תכנות\project\Api_Qmatic\Api_Qmatic\bin\roslyn\System.Security.Claims.dll
+C:\Users\1\Desktop\תכנות\project\Api_Qmatic\Api_Qmatic\bin\roslyn\System.Security.Cryptography.Algorithms.dll
+C:\Users\1\Desktop\תכנות\project\Api_Qmatic\Api_Qmatic\bin\roslyn\System.Security.Cryptography.Encoding.dll
+C:\Users\1\Desktop\תכנות\project\Api_Qmatic\Api_Qmatic\bin\roslyn\System.Security.Cryptography.Primitives.dll
+C:\Users\1\Desktop\תכנות\project\Api_Qmatic\Api_Qmatic\bin\roslyn\System.Security.Cryptography.X509Certificates.dll
+C:\Users\1\Desktop\תכנות\project\Api_Qmatic\Api_Qmatic\bin\roslyn\System.Security.Principal.Windows.dll
+C:\Users\1\Desktop\תכנות\project\Api_Qmatic\Api_Qmatic\bin\roslyn\System.Text.Encoding.CodePages.dll
+C:\Users\1\Desktop\תכנות\project\Api_Qmatic\Api_Qmatic\bin\roslyn\System.Threading.Thread.dll
+C:\Users\1\Desktop\תכנות\project\Api_Qmatic\Api_Qmatic\bin\roslyn\System.ValueTuple.dll
+C:\Users\1\Desktop\תכנות\project\Api_Qmatic\Api_Qmatic\bin\roslyn\System.Xml.ReaderWriter.dll
+C:\Users\1\Desktop\תכנות\project\Api_Qmatic\Api_Qmatic\bin\roslyn\System.Xml.XmlDocument.dll
+C:\Users\1\Desktop\תכנות\project\Api_Qmatic\Api_Qmatic\bin\roslyn\System.Xml.XPath.dll
+C:\Users\1\Desktop\תכנות\project\Api_Qmatic\Api_Qmatic\bin\roslyn\System.Xml.XPath.XDocument.dll
+C:\Users\1\Desktop\תכנות\project\Api_Qmatic\Api_Qmatic\bin\roslyn\vbc.exe
+C:\Users\1\Desktop\תכנות\project\Api_Qmatic\Api_Qmatic\bin\roslyn\vbc.exe.config
+C:\Users\1\Desktop\תכנות\project\Api_Qmatic\Api_Qmatic\bin\roslyn\vbc.rsp
+C:\Users\1\Desktop\תכנות\project\Api_Qmatic\Api_Qmatic\bin\roslyn\VBCSCompiler.exe
+C:\Users\1\Desktop\תכנות\project\Api_Qmatic\Api_Qmatic\bin\roslyn\VBCSCompiler.exe.config
+C:\Users\1\Desktop\תכנות\project\Api_Qmatic\Api_Qmatic\bin\BLL.dll
+C:\Users\1\Desktop\תכנות\project\Api_Qmatic\Api_Qmatic\bin\Entities.dll
+C:\Users\1\Desktop\תכנות\project\Api_Qmatic\Api_Qmatic\bin\EntityFramework.dll
+C:\Users\1\Desktop\תכנות\project\Api_Qmatic\Api_Qmatic\bin\EntityFramework.SqlServer.dll
+C:\Users\1\Desktop\תכנות\project\Api_Qmatic\Api_Qmatic\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.dll
+C:\Users\1\Desktop\תכנות\project\Api_Qmatic\Api_Qmatic\bin\Newtonsoft.Json.dll
+C:\Users\1\Desktop\תכנות\project\Api_Qmatic\Api_Qmatic\bin\System.Net.Http.Formatting.dll
+C:\Users\1\Desktop\תכנות\project\Api_Qmatic\Api_Qmatic\bin\System.Web.Http.dll
+C:\Users\1\Desktop\תכנות\project\Api_Qmatic\Api_Qmatic\bin\System.Web.Http.WebHost.dll
+C:\Users\1\Desktop\תכנות\project\Api_Qmatic\Api_Qmatic\bin\DAL.dll
+C:\Users\1\Desktop\תכנות\project\Api_Qmatic\Api_Qmatic\bin\BLL.pdb
+C:\Users\1\Desktop\תכנות\project\Api_Qmatic\Api_Qmatic\bin\BLL.dll.config
+C:\Users\1\Desktop\תכנות\project\Api_Qmatic\Api_Qmatic\bin\Entities.pdb
+C:\Users\1\Desktop\תכנות\project\Api_Qmatic\Api_Qmatic\bin\EntityFramework.xml
+C:\Users\1\Desktop\תכנות\project\Api_Qmatic\Api_Qmatic\bin\EntityFramework.SqlServer.xml
+C:\Users\1\Desktop\תכנות\project\Api_Qmatic\Api_Qmatic\bin\Newtonsoft.Json.xml
+C:\Users\1\Desktop\תכנות\project\Api_Qmatic\Api_Qmatic\bin\System.Net.Http.Formatting.xml
+C:\Users\1\Desktop\תכנות\project\Api_Qmatic\Api_Qmatic\bin\System.Web.Http.xml
+C:\Users\1\Desktop\תכנות\project\Api_Qmatic\Api_Qmatic\bin\System.Web.Http.WebHost.xml
+C:\Users\1\Desktop\תכנות\project\Api_Qmatic\Api_Qmatic\bin\Microsoft.CodeDom.Providers.DotNetCompilerPlatform.xml
+C:\Users\1\Desktop\תכנות\project\Api_Qmatic\Api_Qmatic\bin\DAL.pdb
+C:\Users\1\Desktop\תכנות\project\Api_Qmatic\Api_Qmatic\bin\DAL.dll.config
+C:\Users\1\Desktop\תכנות\project\Api_Qmatic\Api_Qmatic\obj\Debug\Api_Qmatic.csprojAssemblyReference.cache
+C:\Users\1\Desktop\תכנות\project\Api_Qmatic\Api_Qmatic\obj\Debug\Api_Qmatic.csproj.CoreCompileInputs.cache
+C:\Users\1\Desktop\תכנות\project\Api_Qmatic\Api_Qmatic\obj\Debug\Api_Qmatic.csproj.CopyComplete
+C:\Users\1\Desktop\תכנות\project\Api_Qmatic\Api_Qmatic\obj\Debug\Api_Qmatic.dll
+C:\Users\1\Desktop\תכנות\project\Api_Qmatic\Api_Qmatic\obj\Debug\Api_Qmatic.pdb

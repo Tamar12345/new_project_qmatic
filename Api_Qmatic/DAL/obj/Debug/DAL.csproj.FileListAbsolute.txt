@@ -1,0 +1,24 @@
+L:\שנה ב\Chen Yadai\פרויקט\Api_Qmatic\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+L:\שנה ב\Chen Yadai\פרויקט\Api_Qmatic\DAL\bin\Debug\DAL.dll
+L:\שנה ב\Chen Yadai\פרויקט\Api_Qmatic\DAL\bin\Debug\DAL.pdb
+L:\שנה ב\Chen Yadai\פרויקט\Api_Qmatic\DAL\bin\Debug\EntityFramework.dll
+L:\שנה ב\Chen Yadai\פרויקט\Api_Qmatic\DAL\bin\Debug\EntityFramework.SqlServer.dll
+L:\שנה ב\Chen Yadai\פרויקט\Api_Qmatic\DAL\bin\Debug\EntityFramework.xml
+L:\שנה ב\Chen Yadai\פרויקט\Api_Qmatic\DAL\bin\Debug\EntityFramework.SqlServer.xml
+L:\שנה ב\Chen Yadai\פרויקט\Api_Qmatic\DAL\obj\Debug\DAL.csproj.CopyComplete
+L:\שנה ב\Chen Yadai\פרויקט\Api_Qmatic\DAL\obj\Debug\DAL.dll
+L:\שנה ב\Chen Yadai\פרויקט\Api_Qmatic\DAL\obj\Debug\DAL.pdb
+L:\שנה ב\Chen Yadai\פרויקט\Api_Qmatic\DAL\bin\Debug\DAL.dll.config
+L:\שנה ב\Chen Yadai\פרויקט\Api_Qmatic\DAL\obj\Debug\DAL.csprojAssemblyReference.cache
+C:\Users\1\Desktop\תכנות\project\Api_Qmatic\DAL\bin\Debug\DAL.dll.config
+C:\Users\1\Desktop\תכנות\project\Api_Qmatic\DAL\bin\Debug\DAL.dll
+C:\Users\1\Desktop\תכנות\project\Api_Qmatic\DAL\bin\Debug\DAL.pdb
+C:\Users\1\Desktop\תכנות\project\Api_Qmatic\DAL\bin\Debug\EntityFramework.dll
+C:\Users\1\Desktop\תכנות\project\Api_Qmatic\DAL\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\1\Desktop\תכנות\project\Api_Qmatic\DAL\bin\Debug\EntityFramework.xml
+C:\Users\1\Desktop\תכנות\project\Api_Qmatic\DAL\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\1\Desktop\תכנות\project\Api_Qmatic\DAL\obj\Debug\DAL.csprojAssemblyReference.cache
+C:\Users\1\Desktop\תכנות\project\Api_Qmatic\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+C:\Users\1\Desktop\תכנות\project\Api_Qmatic\DAL\obj\Debug\DAL.csproj.CopyComplete
+C:\Users\1\Desktop\תכנות\project\Api_Qmatic\DAL\obj\Debug\DAL.dll
+C:\Users\1\Desktop\תכנות\project\Api_Qmatic\DAL\obj\Debug\DAL.pdb

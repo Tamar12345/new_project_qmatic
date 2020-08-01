@@ -1,0 +1,34 @@
+L:\שנה ב\Chen Yadai\פרויקט\Api_Qmatic\BLL\bin\Debug\BLL.dll
+L:\שנה ב\Chen Yadai\פרויקט\Api_Qmatic\BLL\bin\Debug\BLL.pdb
+L:\שנה ב\Chen Yadai\פרויקט\Api_Qmatic\BLL\obj\Debug\BLL.csproj.CoreCompileInputs.cache
+L:\שנה ב\Chen Yadai\פרויקט\Api_Qmatic\BLL\obj\Debug\BLL.dll
+L:\שנה ב\Chen Yadai\פרויקט\Api_Qmatic\BLL\obj\Debug\BLL.pdb
+L:\שנה ב\Chen Yadai\פרויקט\Api_Qmatic\BLL\bin\Debug\DAL.dll
+L:\שנה ב\Chen Yadai\פרויקט\Api_Qmatic\BLL\bin\Debug\Entities.dll
+L:\שנה ב\Chen Yadai\פרויקט\Api_Qmatic\BLL\bin\Debug\EntityFramework.dll
+L:\שנה ב\Chen Yadai\פרויקט\Api_Qmatic\BLL\bin\Debug\DAL.pdb
+L:\שנה ב\Chen Yadai\פרויקט\Api_Qmatic\BLL\bin\Debug\DAL.dll.config
+L:\שנה ב\Chen Yadai\פרויקט\Api_Qmatic\BLL\bin\Debug\Entities.pdb
+L:\שנה ב\Chen Yadai\פרויקט\Api_Qmatic\BLL\bin\Debug\EntityFramework.xml
+L:\שנה ב\Chen Yadai\פרויקט\Api_Qmatic\BLL\obj\Debug\BLL.csprojAssemblyReference.cache
+L:\שנה ב\Chen Yadai\פרויקט\Api_Qmatic\BLL\obj\Debug\BLL.csproj.CopyComplete
+L:\שנה ב\Chen Yadai\פרויקט\Api_Qmatic\BLL\bin\Debug\BLL.dll.config
+L:\שנה ב\Chen Yadai\פרויקט\Api_Qmatic\BLL\bin\Debug\EntityFramework.SqlServer.dll
+L:\שנה ב\Chen Yadai\פרויקט\Api_Qmatic\BLL\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\1\Desktop\תכנות\project\Api_Qmatic\BLL\bin\Debug\BLL.dll.config
+C:\Users\1\Desktop\תכנות\project\Api_Qmatic\BLL\bin\Debug\BLL.dll
+C:\Users\1\Desktop\תכנות\project\Api_Qmatic\BLL\bin\Debug\BLL.pdb
+C:\Users\1\Desktop\תכנות\project\Api_Qmatic\BLL\bin\Debug\DAL.dll
+C:\Users\1\Desktop\תכנות\project\Api_Qmatic\BLL\bin\Debug\Entities.dll
+C:\Users\1\Desktop\תכנות\project\Api_Qmatic\BLL\bin\Debug\EntityFramework.dll
+C:\Users\1\Desktop\תכנות\project\Api_Qmatic\BLL\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\1\Desktop\תכנות\project\Api_Qmatic\BLL\bin\Debug\DAL.pdb
+C:\Users\1\Desktop\תכנות\project\Api_Qmatic\BLL\bin\Debug\DAL.dll.config
+C:\Users\1\Desktop\תכנות\project\Api_Qmatic\BLL\bin\Debug\Entities.pdb
+C:\Users\1\Desktop\תכנות\project\Api_Qmatic\BLL\bin\Debug\EntityFramework.xml
+C:\Users\1\Desktop\תכנות\project\Api_Qmatic\BLL\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\1\Desktop\תכנות\project\Api_Qmatic\BLL\obj\Debug\BLL.csprojAssemblyReference.cache
+C:\Users\1\Desktop\תכנות\project\Api_Qmatic\BLL\obj\Debug\BLL.csproj.CoreCompileInputs.cache
+C:\Users\1\Desktop\תכנות\project\Api_Qmatic\BLL\obj\Debug\BLL.csproj.CopyComplete
+C:\Users\1\Desktop\תכנות\project\Api_Qmatic\BLL\obj\Debug\BLL.dll
+C:\Users\1\Desktop\תכנות\project\Api_Qmatic\BLL\obj\Debug\BLL.pdb

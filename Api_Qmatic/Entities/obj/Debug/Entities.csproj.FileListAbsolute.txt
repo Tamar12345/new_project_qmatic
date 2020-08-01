@@ -1,0 +1,28 @@
+L:\שנה ב\Chen Yadai\פרויקט\Api_Qmatic\Entities\bin\Debug\Entities.dll
+L:\שנה ב\Chen Yadai\פרויקט\Api_Qmatic\Entities\bin\Debug\Entities.pdb
+L:\שנה ב\Chen Yadai\פרויקט\Api_Qmatic\Entities\obj\Debug\Entities.csproj.CoreCompileInputs.cache
+L:\שנה ב\Chen Yadai\פרויקט\Api_Qmatic\Entities\obj\Debug\Entities.dll
+L:\שנה ב\Chen Yadai\פרויקט\Api_Qmatic\Entities\obj\Debug\Entities.pdb
+L:\שנה ב\Chen Yadai\פרויקט\Api_Qmatic\Entities\bin\Debug\DAL.dll
+L:\שנה ב\Chen Yadai\פרויקט\Api_Qmatic\Entities\bin\Debug\EntityFramework.dll
+L:\שנה ב\Chen Yadai\פרויקט\Api_Qmatic\Entities\bin\Debug\DAL.pdb
+L:\שנה ב\Chen Yadai\פרויקט\Api_Qmatic\Entities\bin\Debug\DAL.dll.config
+L:\שנה ב\Chen Yadai\פרויקט\Api_Qmatic\Entities\bin\Debug\EntityFramework.xml
+L:\שנה ב\Chen Yadai\פרויקט\Api_Qmatic\Entities\obj\Debug\Entities.csprojAssemblyReference.cache
+L:\שנה ב\Chen Yadai\פרויקט\Api_Qmatic\Entities\obj\Debug\Entities.csproj.CopyComplete
+L:\שנה ב\Chen Yadai\פרויקט\Api_Qmatic\Entities\bin\Debug\EntityFramework.SqlServer.dll
+L:\שנה ב\Chen Yadai\פרויקט\Api_Qmatic\Entities\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\1\Desktop\תכנות\project\Api_Qmatic\Entities\bin\Debug\Entities.dll
+C:\Users\1\Desktop\תכנות\project\Api_Qmatic\Entities\bin\Debug\Entities.pdb
+C:\Users\1\Desktop\תכנות\project\Api_Qmatic\Entities\bin\Debug\DAL.dll
+C:\Users\1\Desktop\תכנות\project\Api_Qmatic\Entities\bin\Debug\EntityFramework.dll
+C:\Users\1\Desktop\תכנות\project\Api_Qmatic\Entities\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\1\Desktop\תכנות\project\Api_Qmatic\Entities\bin\Debug\DAL.pdb
+C:\Users\1\Desktop\תכנות\project\Api_Qmatic\Entities\bin\Debug\DAL.dll.config
+C:\Users\1\Desktop\תכנות\project\Api_Qmatic\Entities\bin\Debug\EntityFramework.xml
+C:\Users\1\Desktop\תכנות\project\Api_Qmatic\Entities\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\1\Desktop\תכנות\project\Api_Qmatic\Entities\obj\Debug\Entities.csprojAssemblyReference.cache
+C:\Users\1\Desktop\תכנות\project\Api_Qmatic\Entities\obj\Debug\Entities.csproj.CoreCompileInputs.cache
+C:\Users\1\Desktop\תכנות\project\Api_Qmatic\Entities\obj\Debug\Entities.csproj.CopyComplete
+C:\Users\1\Desktop\תכנות\project\Api_Qmatic\Entities\obj\Debug\Entities.dll
+C:\Users\1\Desktop\תכנות\project\Api_Qmatic\Entities\obj\Debug\Entities.pdb

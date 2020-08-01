@@ -1,0 +1,45 @@
+.lbl{
+    font-size: 2vh;
+    height: 3vh;
+    width: 10vw;
+    background: #ff9c00 !important;
+    border-radius: 3vh;
+    color: #fff !important;   
+    text-align: center;   
+    position: relative;
+    display: inline-block;
+    border: 0.5vh solid #ff9c00;
+    margin-left: 1vw;
+}
+  #logo
+  {
+      font-size: 15vh;
+      text-align: center;
+  } 
+  li {
+    list-style-type: none;
+}
+a{
+text-decoration: none;
+}
+
+.btn{
+background: #ff9c00 !important;
+    background: -moz-linear-gradient(left,#ff9c00 0%,#f27725 100%);
+    background: -webkit-linear-gradient(left,#ff9c00 0%,#f27725 100%);
+    background: linear-gradient(to right,#ff9c00 0%,#f27725 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ff9c00',endColorstr='#f27725',GradientType=1 );
+    padding: 6px 15px;
+    border-radius: 30px;
+    color: #fff !important;
+    font-size: 20px !important;
+    text-align: center;
+    margin-top: 19px;
+    position: relative;
+    display: inline-block;
+    border: 1px solid #ff9c00;
+}
+
+
+
+

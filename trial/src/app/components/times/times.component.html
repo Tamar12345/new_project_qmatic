@@ -1,0 +1,81 @@
+<div class="form-group">
+  <label class="control-label col-sm-8">Time range to schedule an appointment (in Weeks)</label>
+  <div class="col-sm-4">
+    <input type="number" [(ngModel)]="activeBusiness.rangeEnablingTurn" class="form-control col-sm-2" name="service-options" />
+  </div>
+</div>
+
+<div class="form-group">
+  <label class="control-label col-sm-8">maximun numbers of appointments per client (for your costumize range)</label>
+  <div class="col-sm-4">
+    <input type="number" [(ngModel)]="activeBusiness.maxTurnstoClient" class="form-control col-sm-2" name="service-options" />
+  </div>
+</div>
+<div class="form-group">
+  <label class="control-label col-sm-4">minimum appointment duration (in minutes)</label>
+  <div class="col-sm-4">
+    <input type="number" class="form-control col-sm-2" name="min-app-dur" (keyup)="getTimes()"
+      [(ngModel)]="activeBusiness.minDurationTurn" />
+  </div>
+</div>
+
+
+
+
+<ul class="heroes">
+  <li *ngFor="let i of filteredTimes" (click)="onSelectOption(i)" [class.selected]="i === chosenServiceOpt">
+    <span class="badge">{{i.startHour}}</span>
+    <span class="badge">{{i.endHour}}</span>
+    <button *ngIf="i == chosenServiceOpt" (click)="removeOption(i)">-</button>
+  </li>
+</ul>
+
+
+<div class="form-group">
+  <label class="control-label col-sm-1">add times</label>
+  <label class="control-label col-sm-2">from
+    <input type="time" class="form-control" (change)="changeTime()" [(ngModel)]="fromTime" /></label>
+  <label class="control-label col-sm-2">to
+    <input type="time" class="form-control" (change)="changeTime()" [(ngModel)]="toTime" />
+  </label>
+  <button (click)="addTime()" [disabled]="!canAddTime">add</button>
+
+</div>
+
+
+<label for="singleSelect"> choose day: </label><br>
+<select name="singleSelect" id="singleSelect">
+  <!--add ngmodel to delected day-->
+  <option value="">select day</option>
+  <option value="1">Sunday</option>
+  <option value="2">Monday</option>
+  <option value="3">Tuesday</option>
+  <option value="4">Wednesday</option>
+  <option value="5">Thursday</option>
+  <option value="6">Friday</option>
+  <option value="7">Saturday</option>
+</select><br>
+
+
+<div class="form-group">
+  <label class="control-label col-sm-2 p2">service options</label>
+  <div class="input-group mb-3 col-sm-4 ">
+    <input type="text" class="form-control col-sm-4" [(ngModel)]="serviceOption.ActionName"
+      (keyup)="checkValidOption($event)" />
+    <div class="input-group-prepend">
+      <input type="number" placeholder="duration(minutes)" [(ngModel)]="serviceOption.duration"
+        (keyup)="checkValidOption($event)">
+      <button (click)="addServiceOption($event)" class="btn btn-outline-secondary" [disabled]="!canAddOpt">+</button>
+    </div>
+  </div>
+  <ul class="heroes">
+    <li *ngFor="let i of serviceOptions" (click)="onSelectOption(i)" [class.selected]="i === chosenServiceOpt">
+      <span class="badge">{{i.ActionName}}</span>
+      <span class="badge">{{i.duration}}</span>
+      <button *ngIf="i == chosenServiceOpt" (click)="removeOption(i)">-</button>
+    </li>
+  </ul>
+  <!-- <select class="custom-select" multiple>
+    <option *ngFor="let i of serviceOptions">{{i}}</option>
+  </select> -->
+</div>

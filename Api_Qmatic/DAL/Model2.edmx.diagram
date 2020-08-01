@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<edmx:Edmx Version="3.0" xmlns:edmx="http://schemas.microsoft.com/ado/2009/11/edmx">
+ <!-- EF Designer content (DO NOT EDIT MANUALLY BELOW HERE) -->
+  <edmx:Designer xmlns="http://schemas.microsoft.com/ado/2009/11/edmx">
+    <!-- Diagram content (shape and connector positions) -->
+    <edmx:Diagrams>
+      <Diagram DiagramId="f9d1ffc637f94ae89ba7bec280baf714" Name="Diagram1">
+        <EntityTypeShape EntityType="QmaticModel1.ActionTime" Width="1.5" PointX="3" PointY="5" IsExpanded="true" />
+        <EntityTypeShape EntityType="QmaticModel1.ActionToBusiness" Width="1.5" PointX="3" PointY="8" IsExpanded="true" />
+        <EntityTypeShape EntityType="QmaticModel1.AddCancelTime" Width="1.5" PointX="3" PointY="10.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="QmaticModel1.Business" Width="1.5" PointX="0.75" PointY="6.125" IsExpanded="true" />
+        <EntityTypeShape EntityType="QmaticModel1.Cancellation" Width="1.5" PointX="3" PointY="13.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="QmaticModel1.Clients" Width="1.5" PointX="3.75" PointY="0.75" IsExpanded="true" />
+        <EntityTypeShape EntityType="QmaticModel1.ClientToBusiness" Width="1.5" PointX="6" PointY="3.875" IsExpanded="true" />
+        <EntityTypeShape EntityType="QmaticModel1.Holidays" Width="1.5" PointX="5.75" PointY="1.375" IsExpanded="true" />
+        <EntityTypeShape EntityType="QmaticModel1.Times" Width="1.5" PointX="0.75" PointY="3.25" IsExpanded="true" />
+        <EntityTypeShape EntityType="QmaticModel1.Turns" Width="1.5" PointX="5.25" PointY="7.875" IsExpanded="true" />
+        <AssociationConnector Association="QmaticModel1.FK_ActionTime_Business" ManuallyRouted="false" />
+        <AssociationConnector Association="QmaticModel1.FK_ActionTime_Times" ManuallyRouted="false" />
+        <AssociationConnector Association="QmaticModel1.FK_ActionToBusiness_Business" ManuallyRouted="false" />
+        <AssociationConnector Association="QmaticModel1.FK_Turns_ActionToBusiness" ManuallyRouted="false" />
+        <AssociationConnector Association="QmaticModel1.FK_AddCancelTime_Business" ManuallyRouted="false" />
+        <AssociationConnector Association="QmaticModel1.FK_Cancellation_Business" ManuallyRouted="false" />
+        <AssociationConnector Association="QmaticModel1.FK_ClientToBusiness_Business" ManuallyRouted="false" />
+        <AssociationConnector Association="QmaticModel1.FK_ClientToBusiness_Business1" ManuallyRouted="false" />
+        <AssociationConnector Association="QmaticModel1.FK_ClientToBusiness_Clients" ManuallyRouted="false" />
+        <AssociationConnector Association="QmaticModel1.FK_Turns_ClientToBusiness" ManuallyRouted="false" />
+      </Diagram>
+    </edmx:Diagrams>
+  </edmx:Designer>
+</edmx:Edmx>

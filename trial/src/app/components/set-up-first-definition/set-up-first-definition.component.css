@@ -1,0 +1,15 @@
+#logo_img{
+   width: 100vw;
+   height: 20vh; 
+   background-position: center;
+   background-repeat: no-repeat;
+}
+
+#file_btn_text{
+    position: block;
+    width: 100vw;
+    height: 20vh;
+    background-color: transparent;
+    border: none;
+
+}

@@ -1,0 +1,291 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Schema Namespace="QmaticModel1.Store" Provider="System.Data.SqlClient" ProviderManifestToken="2012" Alias="Self" xmlns:store="http://schemas.microsoft.com/ado/2007/12/edm/EntityStoreSchemaGenerator" xmlns:customannotation="http://schemas.microsoft.com/ado/2013/11/edm/customannotation" xmlns="http://schemas.microsoft.com/ado/2009/11/edm/ssdl">
+  <EntityType Name="ActionTime">
+    <Key>
+      <PropertyRef Name="code" />
+    </Key>
+    <Property Name="code" Type="numeric" Precision="18" Scale="0" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="businessCode" Type="numeric" Precision="18" Scale="0" />
+    <Property Name="day" Type="numeric" Precision="18" Scale="0" />
+    <Property Name="time" Type="numeric" Precision="18" Scale="0" />
+  </EntityType>
+  <EntityType Name="ActionToBusiness">
+    <Key>
+      <PropertyRef Name="code" />
+    </Key>
+    <Property Name="code" Type="numeric" Precision="18" Scale="0" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="businessCode" Type="numeric" Precision="18" Scale="0" />
+    <Property Name="ActionName" Type="nvarchar" MaxLength="50" />
+    <Property Name="duration" Type="numeric" Precision="18" Scale="0" />
+  </EntityType>
+  <EntityType Name="AddCancelTime">
+    <Key>
+      <PropertyRef Name="code" />
+    </Key>
+    <Property Name="code" Type="numeric" Precision="18" Scale="0" Nullable="false" />
+    <Property Name="businessCode" Type="numeric" Precision="18" Scale="0" />
+    <Property Name="startHour" Type="time" Precision="7" />
+    <Property Name="endHour" Type="time" Precision="7" />
+    <Property Name="date" Type="date" />
+    <Property Name="status" Type="bit" />
+  </EntityType>
+  <EntityType Name="Business">
+    <Key>
+      <PropertyRef Name="code" />
+    </Key>
+    <Property Name="code" Type="numeric" Precision="18" Scale="0" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="businessName" Type="nvarchar" MaxLength="50" />
+    <Property Name="description" Type="nvarchar" MaxLength="100" />
+    <Property Name="logo" Type="nvarchar" MaxLength="200" />
+    <Property Name="fontColor" Type="nvarchar" MaxLength="50" />
+    <Property Name="backGroundColor" Type="nvarchar" MaxLength="50" />
+    <Property Name="tableColor" Type="nvarchar" MaxLength="50" />
+    <Property Name="freeTurnColor" Type="nvarchar" MaxLength="50" />
+    <Property Name="takenTurnColor" Type="nvarchar" MaxLength="50" />
+    <Property Name="cancelledTurnColor" Type="nvarchar" MaxLength="50" />
+    <Property Name="street" Type="nvarchar" MaxLength="50" />
+    <Property Name="numHouse" Type="nvarchar" MaxLength="50" />
+    <Property Name="city" Type="nvarchar" MaxLength="50" />
+    <Property Name="experience" Type="numeric" Precision="18" Scale="0" />
+    <Property Name="email" Type="nvarchar" MaxLength="50" />
+    <Property Name="phoneNumber" Type="nvarchar" MaxLength="50" />
+    <Property Name="minDurationTurn" Type="numeric" Precision="18" Scale="0" />
+    <Property Name="rangeEnablingTurn" Type="numeric" Precision="18" Scale="0" />
+    <Property Name="password" Type="nvarchar" MaxLength="50" />
+    <Property Name="ownerName" Type="nvarchar" MaxLength="50" />
+    <Property Name="completeRegistration" Type="bit" />
+    <Property Name="maxTurnstoClient" Type="numeric" Precision="18" Scale="0" />
+  </EntityType>
+  <EntityType Name="Cancellation">
+    <Key>
+      <PropertyRef Name="code" />
+    </Key>
+    <Property Name="code" Type="numeric" Precision="18" Scale="0" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="BusinessCode" Type="numeric" Precision="18" Scale="0" Nullable="false" />
+    <Property Name="cancelDate" Type="date" />
+    <Property Name="cancelHour" Type="time" Precision="7" />
+  </EntityType>
+  <EntityType Name="Clients">
+    <Key>
+      <PropertyRef Name="id" />
+    </Key>
+    <Property Name="id" Type="nvarchar" MaxLength="9" Nullable="false" />
+    <Property Name="firstName" Type="nvarchar" MaxLength="50" />
+    <Property Name="lastName" Type="nvarchar" MaxLength="50" />
+    <Property Name="street" Type="nvarchar" MaxLength="50" />
+    <Property Name="city" Type="nvarchar" MaxLength="50" />
+    <Property Name="Email" Type="nvarchar" MaxLength="50" />
+    <Property Name="phoneNumber" Type="nvarchar" MaxLength="10" />
+    <Property Name="password" Type="nvarchar" MaxLength="50" />
+  </EntityType>
+  <EntityType Name="ClientToBusiness">
+    <Key>
+      <PropertyRef Name="clientId" />
+      <PropertyRef Name="businessCode" />
+    </Key>
+    <Property Name="clientId" Type="nvarchar" MaxLength="9" Nullable="false" />
+    <Property Name="businessCode" Type="numeric" Precision="18" Scale="0" Nullable="false" />
+    <Property Name="confirmationStatus" Type="bit" Nullable="false" />
+  </EntityType>
+  <EntityType Name="Holidays">
+    <Key>
+      <PropertyRef Name="code" />
+    </Key>
+    <Property Name="code" Type="numeric" Precision="18" Scale="0" Nullable="false" />
+    <Property Name="jewishDate" Type="nvarchar" MaxLength="50" Nullable="false" />
+    <Property Name="foreignDate" Type="date" />
+  </EntityType>
+  <EntityType Name="Times">
+    <Key>
+      <PropertyRef Name="code" />
+    </Key>
+    <Property Name="code" Type="numeric" Precision="18" Scale="0" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="startHour" Type="time" Precision="7" />
+    <Property Name="endHour" Type="time" Precision="7" />
+  </EntityType>
+  <EntityType Name="Turns">
+    <Key>
+      <PropertyRef Name="code" />
+    </Key>
+    <Property Name="code" Type="numeric" Precision="18" Scale="0" StoreGeneratedPattern="Identity" Nullable="false" />
+    <Property Name="clientId" Type="nvarchar" MaxLength="9" />
+    <Property Name="businessCode" Type="numeric" Precision="18" Scale="0" />
+    <Property Name="turnDate" Type="date" />
+    <Property Name="hour" Type="time" Precision="7" />
+    <Property Name="codeAction" Type="numeric" Precision="18" Scale="0" />
+  </EntityType>
+  <Association Name="FK_ActionTime_Business">
+    <End Role="Business" Type="Self.Business" Multiplicity="0..1" />
+    <End Role="ActionTime" Type="Self.ActionTime" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Business">
+        <PropertyRef Name="code" />
+      </Principal>
+      <Dependent Role="ActionTime">
+        <PropertyRef Name="businessCode" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_ActionTime_Times">
+    <End Role="Times" Type="Self.Times" Multiplicity="0..1" />
+    <End Role="ActionTime" Type="Self.ActionTime" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Times">
+        <PropertyRef Name="code" />
+      </Principal>
+      <Dependent Role="ActionTime">
+        <PropertyRef Name="time" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_ActionToBusiness_Business">
+    <End Role="Business" Type="Self.Business" Multiplicity="0..1" />
+    <End Role="ActionToBusiness" Type="Self.ActionToBusiness" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Business">
+        <PropertyRef Name="code" />
+      </Principal>
+      <Dependent Role="ActionToBusiness">
+        <PropertyRef Name="businessCode" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_AddCancelTime_Business">
+    <End Role="Business" Type="Self.Business" Multiplicity="0..1" />
+    <End Role="AddCancelTime" Type="Self.AddCancelTime" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Business">
+        <PropertyRef Name="code" />
+      </Principal>
+      <Dependent Role="AddCancelTime">
+        <PropertyRef Name="businessCode" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Cancellation_Business">
+    <End Role="Business" Type="Self.Business" Multiplicity="1" />
+    <End Role="Cancellation" Type="Self.Cancellation" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Business">
+        <PropertyRef Name="code" />
+      </Principal>
+      <Dependent Role="Cancellation">
+        <PropertyRef Name="BusinessCode" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_ClientToBusiness_Business">
+    <End Role="Business" Type="Self.Business" Multiplicity="1" />
+    <End Role="ClientToBusiness" Type="Self.ClientToBusiness" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Business">
+        <PropertyRef Name="code" />
+      </Principal>
+      <Dependent Role="ClientToBusiness">
+        <PropertyRef Name="businessCode" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_ClientToBusiness_Business1">
+    <End Role="Business" Type="Self.Business" Multiplicity="1" />
+    <End Role="ClientToBusiness" Type="Self.ClientToBusiness" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Business">
+        <PropertyRef Name="code" />
+      </Principal>
+      <Dependent Role="ClientToBusiness">
+        <PropertyRef Name="businessCode" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_ClientToBusiness_Clients">
+    <End Role="Clients" Type="Self.Clients" Multiplicity="1" />
+    <End Role="ClientToBusiness" Type="Self.ClientToBusiness" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="Clients">
+        <PropertyRef Name="id" />
+      </Principal>
+      <Dependent Role="ClientToBusiness">
+        <PropertyRef Name="clientId" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Turns_ActionToBusiness">
+    <End Role="ActionToBusiness" Type="Self.ActionToBusiness" Multiplicity="0..1" />
+    <End Role="Turns" Type="Self.Turns" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="ActionToBusiness">
+        <PropertyRef Name="code" />
+      </Principal>
+      <Dependent Role="Turns">
+        <PropertyRef Name="codeAction" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <Association Name="FK_Turns_ClientToBusiness">
+    <End Role="ClientToBusiness" Type="Self.ClientToBusiness" Multiplicity="0..1" />
+    <End Role="Turns" Type="Self.Turns" Multiplicity="*" />
+    <ReferentialConstraint>
+      <Principal Role="ClientToBusiness">
+        <PropertyRef Name="clientId" />
+        <PropertyRef Name="businessCode" />
+      </Principal>
+      <Dependent Role="Turns">
+        <PropertyRef Name="clientId" />
+        <PropertyRef Name="businessCode" />
+      </Dependent>
+    </ReferentialConstraint>
+  </Association>
+  <EntityContainer Name="QmaticModel1StoreContainer">
+    <EntitySet Name="ActionTime" EntityType="Self.ActionTime" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="ActionToBusiness" EntityType="Self.ActionToBusiness" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="AddCancelTime" EntityType="Self.AddCancelTime" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Business" EntityType="Self.Business" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Cancellation" EntityType="Self.Cancellation" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Clients" EntityType="Self.Clients" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="ClientToBusiness" EntityType="Self.ClientToBusiness" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Holidays" EntityType="Self.Holidays" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Times" EntityType="Self.Times" Schema="dbo" store:Type="Tables" />
+    <EntitySet Name="Turns" EntityType="Self.Turns" Schema="dbo" store:Type="Tables" />
+    <AssociationSet Name="FK_ActionTime_Business" Association="Self.FK_ActionTime_Business">
+      <End Role="Business" EntitySet="Business" />
+      <End Role="ActionTime" EntitySet="ActionTime" />
+    </AssociationSet>
+    <AssociationSet Name="FK_ActionTime_Times" Association="Self.FK_ActionTime_Times">
+      <End Role="Times" EntitySet="Times" />
+      <End Role="ActionTime" EntitySet="ActionTime" />
+    </AssociationSet>
+    <AssociationSet Name="FK_ActionToBusiness_Business" Association="Self.FK_ActionToBusiness_Business">
+      <End Role="Business" EntitySet="Business" />
+      <End Role="ActionToBusiness" EntitySet="ActionToBusiness" />
+    </AssociationSet>
+    <AssociationSet Name="FK_AddCancelTime_Business" Association="Self.FK_AddCancelTime_Business">
+      <End Role="Business" EntitySet="Business" />
+      <End Role="AddCancelTime" EntitySet="AddCancelTime" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Cancellation_Business" Association="Self.FK_Cancellation_Business">
+      <End Role="Business" EntitySet="Business" />
+      <End Role="Cancellation" EntitySet="Cancellation" />
+    </AssociationSet>
+    <AssociationSet Name="FK_ClientToBusiness_Business" Association="Self.FK_ClientToBusiness_Business">
+      <End Role="Business" EntitySet="Business" />
+      <End Role="ClientToBusiness" EntitySet="ClientToBusiness" />
+    </AssociationSet>
+    <AssociationSet Name="FK_ClientToBusiness_Business1" Association="Self.FK_ClientToBusiness_Business1">
+      <End Role="Business" EntitySet="Business" />
+      <End Role="ClientToBusiness" EntitySet="ClientToBusiness" />
+    </AssociationSet>
+    <AssociationSet Name="FK_ClientToBusiness_Clients" Association="Self.FK_ClientToBusiness_Clients">
+      <End Role="Clients" EntitySet="Clients" />
+      <End Role="ClientToBusiness" EntitySet="ClientToBusiness" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Turns_ActionToBusiness" Association="Self.FK_Turns_ActionToBusiness">
+      <End Role="ActionToBusiness" EntitySet="ActionToBusiness" />
+      <End Role="Turns" EntitySet="Turns" />
+    </AssociationSet>
+    <AssociationSet Name="FK_Turns_ClientToBusiness" Association="Self.FK_Turns_ClientToBusiness">
+      <End Role="ClientToBusiness" EntitySet="ClientToBusiness" />
+      <End Role="Turns" EntitySet="Turns" />
+    </AssociationSet>
+  </EntityContainer>
+</Schema>
